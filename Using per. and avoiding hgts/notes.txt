@@ -1,0 +1,18 @@
+---------------When we use PERCENTAGE width V/S FIXED width----------------:
+
+1. Then while the screen is reduced to responsive screen (if
+used fixed width) the width of the design doesn't seem responsive.
+
+
+2. The by deafault width of the block level elements is 100% the screen
+size.
+
+3. The parent element is 100% of the viewport, so when you set parent 
+element as 80% then it becomes 80% of the screen (viewport) 
+
+
+
+----------------PERCENTAGE used in the CHILD element--------------------
+
+1. When fixed width is used inside of the child element then overflow 
+happens.
