@@ -1,0 +1,21 @@
+/* When we use WIDTH :
+1. Then while the screen is reduced to responsive screen the width of 
+the design doesn't seem responsive */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.big-box {
+  background: darkblue;
+  padding: 50px;
+  width: 900px;
+  margin: 0 auto;
+}
+
+.small-box {
+  background: skyblue;
+  height: 250px;
+}
