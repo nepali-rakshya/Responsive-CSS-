@@ -19,3 +19,17 @@ the design doesn't seem responsive */
   background: skyblue;
   height: 250px;
 }
+
+@media screen and (max-width: 230px) {
+  .big-box {
+    background: darkblue;
+    padding: 2px;
+    width: 30%;
+    margin: 0 auto;
+  }
+
+  .small-box {
+    background: skyblue;
+    height: 2px;
+  }
+}
