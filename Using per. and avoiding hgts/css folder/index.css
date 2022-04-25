@@ -4,17 +4,25 @@
   box-sizing: border-box;
 }
 
-.big-box {
+/* .big-box {
   width: 100vw;
   height: 333px;
   background: darkblue;
+} */
+
+.big-box {
+  background: darkblue;
+  padding: 50px;
 }
 
 .small-box {
-  background: skyblue;
+  /* background: skyblue;
   display: inline-block;
   height: 250px;
-  width: 45.5rem;
+  width: 90rem;
   margin-left: 36px;
-  margin-top: 40px;
+  margin-top: 40px; */
+
+  background: skyblue;
+  height: 250px;
 }
