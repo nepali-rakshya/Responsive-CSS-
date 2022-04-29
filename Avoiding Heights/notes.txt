@@ -1,0 +1,5 @@
+----------------------------AVOIDING HEIGHTS------------------------------
+
+1. If you are having issues related to heights, then simply don't use the
+height. Naturally, our website is responsive so does the height will be
+responsive too. 
