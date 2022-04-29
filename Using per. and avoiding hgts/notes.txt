@@ -15,4 +15,9 @@ element as 80% then it becomes 80% of the screen (viewport)
 ----------------PERCENTAGE used in the CHILD element--------------------
 
 1. When fixed width is used inside of the child element then overflow 
-happens.
+happens i.e., it doesn't become responsive.
+
+
+2. In order to avoid that issue percentage must be used. Basically, inorder
+to avoid unresponsiveness of the website one must always prefer using 
+percentage to define the width or the height.
