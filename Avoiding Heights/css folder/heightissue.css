@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  background: #23424a;
+  color: white;
+  width: 80%;
+  margin: 0 auto;
+  padding: 5em;
+  /* height: 300px;  avoid using heights as much as possible*/
+}
