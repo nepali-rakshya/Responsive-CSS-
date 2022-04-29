@@ -4,14 +4,14 @@
   box-sizing: border-box;
 }
 
-.big-box {
+.parent {
   width: 80%;
   padding: 50px;
   background: darkorange;
   margin: 0 auto;
 }
 
-.small-box {
+.child {
   width: 50%;
   background: greenyellow;
   height: 150px;
