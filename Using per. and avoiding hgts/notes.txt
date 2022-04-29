@@ -21,3 +21,7 @@ happens i.e., it doesn't become responsive.
 2. In order to avoid that issue percentage must be used. Basically, inorder
 to avoid unresponsiveness of the website one must always prefer using 
 percentage to define the width or the height.
+
+
+3. While make the website responsive try using media font size for 
+different size of the screen
