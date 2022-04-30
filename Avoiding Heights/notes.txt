@@ -19,3 +19,4 @@ root for the font-size. The default font size is 16px.
 
 2. the other properties for em unit except font-size depends upon the 
 size of the font of the element it is under, but not the parent element.
+(it has a property of compounding the font-size === em)

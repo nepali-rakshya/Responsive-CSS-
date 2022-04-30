@@ -1,13 +1,22 @@
-/* :root {
+html {
   font-size: 20px;
 }
 
 .em-unit {
   font-size: 2em;
-  margin-left: 5em;
+  /* 2*20 = 40px */
+  border: 5px solid blue;
+  margin-left: 2em;
+  /* 2*40 = 80px */
 }
 
 .rem-unit {
   font-size: 2rem;
-  margin-left: 160px;
-} */
+  /* 2*20 = 40px */
+  border: 5px solid blue;
+  margin-left: 2rem;
+  /* 2*20 = 40px */
+}
+
+/* FORMULA of em unit
+(margin/padding/width/height) value * font-size = (margin/padding/width/height) value */
