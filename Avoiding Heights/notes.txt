@@ -9,3 +9,13 @@ responsive too.
 
 
 3. Similar to percentage, em and rem are both responsive.
+
+
+**************** EM AND REM 
+
+1. em depends upon its parent for its font-size, and rem depends upon its
+root for the font-size. The default font size is 16px.
+
+
+2. the other properties for em unit except font-size depends upon the 
+size of the font of the element it is under, but not the parent element.
