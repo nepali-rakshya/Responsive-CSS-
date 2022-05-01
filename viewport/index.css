@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* USING VIEWPORTS */
+
+/* .box {
+  background: skyblue;
+  width: 50%;
+   max-width: 900px; 
+  height: 50vh; 
+  margin-top: 25vh;
+  margin-bottom: 25vh;
+  margin-right: 50vw;
+} */
+
+/* USING PERCENTAGES */
+
+.box {
+}
+
+/* .intro {
+  border: 5px solid rgb(179, 39, 62);
+  height: 500px;
+  background: pink;
+  width: 50%;
+  margin-top: 25%;
+  margin-bottom: 25%;
+  margin-right: 50%;
+} */
