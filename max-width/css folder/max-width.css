@@ -1,3 +1,9 @@
+/* 
+When we use width in percent and as we make them responsive sometimes
+the design can be way too big in large screens so max-width can save us
+from that issue.
+*/
+
 * {
   margin: 0;
   padding: 0;
@@ -12,8 +18,8 @@ body {
   background: #23424a;
   color: white;
 
-  width: 50%;
-  max-width: 900px;
+  width: 80%;
+  max-width: 500px;
   margin: 0 auto;
 
   padding: 2em;
