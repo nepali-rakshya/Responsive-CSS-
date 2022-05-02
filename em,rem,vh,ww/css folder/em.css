@@ -1,0 +1,24 @@
+.container {
+  font-size: 10px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 10em;
+}
+
+h1 > p {
+  font-size: 2em;
+  /* padding-left: 400px; */
+  padding-left: 2em;
+}
+
+/* #first1 {
+  font-size: 3em;
+}
+#first2 {
+  font-size: 3em;
+}
+#first3 {
+  font-size: 3em;
+} */
