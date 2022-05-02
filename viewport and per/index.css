@@ -40,7 +40,7 @@ html {
 }
 .div1 {
   background: blue;
-  height: 10%;
+  height: 100vmin;
 }
 .div2 {
   background: red;
