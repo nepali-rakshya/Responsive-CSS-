@@ -7,14 +7,18 @@
 /* main container  */
 
 .container {
-  width: 80%;
-  max-width: 72ch;
+  width: 90%;
+  max-width: 1000px;
   margin: 0 3rem;
 }
 
 .outer {
   background: #072a2d;
   padding: 7.5rem 0 7rem;
+}
+
+.outer-text {
+  width: 60%;
 }
 
 /* *********************************************************** */
