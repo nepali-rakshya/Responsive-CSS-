@@ -1,3 +1,7 @@
+html {
+  font-size: 19.2px; /*font-size: 1.2em*/
+}
+
 .container {
   font-size: 10px;
 }
@@ -13,12 +17,12 @@ h1 > p {
   padding-left: 2em;
 }
 
-#first1 {
-  font-size: 3em; /* 3em = 3 *10px = 30px*/
-}
-#first2 {
-  font-size: 90px; /* (first1)3em * (first2)3em = 9em = 9 * 10px= 90px*/
-}
-#first3 {
-  font-size: 3em; /* 3em = 3 *10px = 30px*/
-}
+/* #first1 {
+  font-size: 3em;
+} 3em = 3 *10px = 30px */
+
+/* #first2 {
+  font-size: 90px;} /* (first1)3em * (first2)3em = 9em = 9 * 10px= 90px*/
+
+/* #first3 {
+  font-size: 3em;}  /* 3em = 3 *10px = 30px*/
