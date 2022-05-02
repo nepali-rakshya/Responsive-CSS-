@@ -1,0 +1,16 @@
+=======================================================================
+==================== HEIGHT RULES NEED TO REMEMBER ====================
+=======================================================================
+
+
+John: I want to set the height of my div to 100%.
+Jane: 100% of what?
+John: 100% of its container. So, the parent one-level up.
+Jane: Okay. And what's the height of the div's parent?
+John: Doesn't have one. Auto, I guess. Content-driven.
+Jane: So, you want the div to have a 100% height of an unknown variable?
+John: [silence]
+Jane: Hey John, can I have 50% of that?
+John: 50% of what?
+Jane: Exactly!
+Jane: Percentages are relative values. You always have to ask "percentage of what?". By declaring an explicit height for each parent all the way up to body and html you establish a frame of reference for each child with percentage height, enabling the height to work.
