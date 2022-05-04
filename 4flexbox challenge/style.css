@@ -47,7 +47,7 @@ h1 {
   /* display: flex => flex container */
   display: flex;
   text-align: center;
-  margin: 5rem 1.5rem;
+  margin: 5rem 0;
   /* can't use yet */
   /* gap: 100px; */
 }
@@ -57,22 +57,28 @@ h1 {
   width: 100%;
 }
 
-.small-container {
-  display: flex;
+.color {
   background: #136c72;
-  color: white;
-  padding: 4rem;
-  text-align: center;
+  padding: 0;
 }
 
 .col + .col {
   margin-left: 1.5rem;
 }
 
-.row h2 {
+.row h2.title {
   color: #87629a;
   font-family: "Roboto", sans-serif;
   font-size: 2rem;
+}
+
+.second-hero {
+  background: #136c72;
+}
+
+#rowbar {
+  margin: 0;
+  padding: 3rem 0;
 }
 /* ******************************************************************** */
 .hero {
