@@ -47,7 +47,7 @@ h1 {
   /* display: flex => flex container */
   display: flex;
   text-align: center;
-  margin: 5rem 0;
+  padding: 3rem 0;
   /* can't use yet */
   /* gap: 100px; */
 }
@@ -55,11 +55,6 @@ h1 {
 .col {
   /* these are now flex items */
   width: 100%;
-}
-
-.color {
-  background: #136c72;
-  padding: 0;
 }
 
 .col + .col {
@@ -74,12 +69,9 @@ h1 {
 
 .second-hero {
   background: #136c72;
+  color: white;
 }
 
-#rowbar {
-  margin: 0;
-  padding: 3rem 0;
-}
 /* ******************************************************************** */
 .hero {
   padding: 100px 0;
