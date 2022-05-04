@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* main container  */
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 3rem;
+}
+
+.outer {
+  background: #072a2d;
+  padding: 4rem 0 3rem;
+  margin-bottom: 1rem;
+}
+
+.outer-text {
+  width: 60%;
+}
+
+/* *********************************************************** */
+/* heading */
+
+h1 {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+}
+
+/* **************************************************************** */
+
+/* para */
+
+p {
+  color: #e5e5e5;
+  font-family: "Roboto", sans-serif;
+  margin-top: 1.5rem;
+  line-height: 1.5rem;
+  word-spacing: 0.1rem;
+}
+
+.para {
+  color: #072a2d;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+/* ************************************************************** */
+/* link */
+.button {
+  display: inline-block;
+  padding: 1rem 1.5rem;
+  background: #38cfd9;
+  border-radius: 2rem;
+  margin-top: 3.5rem;
+}
+
+a {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0 1rem;
+}
+
+a:link {
+  color: #072a2d;
+  font-weight: bold;
+  font-size: 0.98rem;
+}
+
+/***************************************************************/
+/* flex in the container  */
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.col {
+  width: 100%;
+  /* these are now flex items */
+}
+
+/* Adjacent sibling selector 
+columns after the actual column you have selected */
+.col + .col {
+  /* background: limegreen; */
+  margin-left: 30px;
+  /* It's creating a space on the left sides of only two columns which 
+  was what we wanted */
+}
