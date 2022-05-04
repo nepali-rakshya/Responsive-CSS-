@@ -14,7 +14,7 @@
 
 .outer {
   background: #072a2d;
-  padding: 7.5rem 0 7rem;
+  padding: 4rem 0 3rem;
   margin-bottom: 1rem;
 }
 
@@ -70,4 +70,17 @@ a:link {
   color: #072a2d;
   font-weight: bold;
   font-size: 0.98rem;
+}
+
+/***************************************************************/
+/* flex in the container  */
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.col {
+  width: 100%;
+  /* these are now flex items */
 }
