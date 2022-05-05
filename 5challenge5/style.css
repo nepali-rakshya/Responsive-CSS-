@@ -35,6 +35,8 @@ h1 {
 
 /* ************************************************************ */
 
+/* designs done on the first section */
+
 .container {
   width: 80%;
   max-width: 1100px;
@@ -62,7 +64,9 @@ h1 {
   text-align: center;
 }
 
-.second-main-section {
+/* designs done on the second main section  */
+
+main {
   margin: 3rem 0;
 }
 
@@ -80,7 +84,7 @@ h1 {
   color: #3a3a3a;
 }
 
-.common {
+p {
   font-size: 1rem;
 }
 
