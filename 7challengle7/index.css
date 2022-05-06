@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* *Big container design */
+
+.big-container {
+  background: #f3eed9;
+}
+
+.big-container__layout {
+  width: 90%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.layout {
+  display: flex;
+  min-height: 660px;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ? (For the default flex-direction: row the cross axis 
+? corresponds to vertical and the main axis corresponds to 
+? horizontal. With flex-direction: column those two are 
+? interchanged respectively). */
