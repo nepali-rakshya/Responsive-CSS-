@@ -4,15 +4,16 @@
   box-sizing: border-box;
 }
 
-/* *Big container design */
+/****************** *Big container design****************** */
 
 .big-container {
   background: #f3eed9;
 }
 
 .big-container__layout {
-  width: 90%;
-  max-width: 400px;
+  /*! **************Re-Usable code******************/
+  width: 75%;
+  max-width: 1128px;
   margin: 0 auto;
 }
 
@@ -25,7 +26,78 @@
   align-items: center;
 }
 
+.layout-size {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.layout > h1 {
+  color: #824936;
+  font-family: "Playfair Display", serif;
+  font-size: 60px;
+}
+
+.layout > p {
+  color: #222c2a;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  letter-spacing: 1rem;
+  text-transform: uppercase;
+}
+
 /* ? (For the default flex-direction: row the cross axis 
 ? corresponds to vertical and the main axis corresponds to 
 ? horizontal. With flex-direction: column those two are 
 ? interchanged respectively). */
+
+/****************** *Second big container design****************** */
+
+.second-big-container,
+.third-big-container {
+  padding: 4.5rem 0;
+}
+
+.second-big-container > h2 {
+  /* *****************!Re-Useable code****************   */
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  font-size: 36px;
+  color: #824936;
+}
+
+.second-layout {
+  /* *****************!Re-Useable code****************   */
+  display: flex;
+  margin: 2rem 0;
+  color: #222c2a;
+  font-size: 21px;
+}
+
+.second-layout > p + p {
+  margin-left: 5rem;
+}
+
+/****************** *Third big container design****************** */
+
+.third-bg {
+  background: #222c2a;
+}
+
+.big-container__layout > h2 {
+  color: #f3eed9;
+  font-size: 35px;
+}
+
+.third-big-container > p {
+  color: #f3eed9;
+  font-size: 21px;
+  text-align: left;
+}
+
+.third-big-container > p + img {
+  margin-left: 5rem;
+}
+
+img {
+  max-width: 100%;
+}
