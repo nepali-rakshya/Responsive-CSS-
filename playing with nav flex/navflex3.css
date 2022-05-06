@@ -82,6 +82,10 @@ header {
   display: flex;
 }
 
+.nav__list--first {
+  margin: 0 auto;
+}
+
 .nav__link {
   color: #fff;
   text-decoration: none;
