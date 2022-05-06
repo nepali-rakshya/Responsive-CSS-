@@ -79,7 +79,8 @@ header {
 .nav {
   font-size: 1rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between; /* This space-between is for .nav's two flex column*/
+  align-items: center;
 }
 
 .nav__list {
