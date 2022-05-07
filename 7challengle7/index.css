@@ -53,13 +53,14 @@
 /****************** *Second big container design****************** */
 
 .second-big-container,
-.third-big-container {
+.third-bg,
+.fourth-bg {
   /*! **************Re-Usable code******************/
   padding: 4.5rem 0;
 }
 
 .second-big-container > h2 {
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
   text-align: center;
   font-family: "Playfair Display", serif;
   font-size: 36px;
@@ -73,12 +74,16 @@
   justify-content: space-between;
 }
 
-.second-layout p {
+p.third-para {
   color: #222c2a;
 }
 
 .second-layout > p + p {
-  margin-left: 5rem;
+  margin-left: 4rem;
+}
+
+.second-layout > * {
+  flex: 1;
 }
 
 /****************** *Third big container design****************** */
@@ -90,6 +95,7 @@
 .third-bg h2 {
   color: #f3eed9;
   font-size: 35px;
+  margin-bottom: 1rem;
 }
 
 .third-bg p {
@@ -98,4 +104,29 @@
 
 img {
   max-width: 100%;
+  margin-left: 4rem;
+}
+
+/****************** *Fourth big container design****************** */
+
+.fourth-bg {
+  background: #824936;
+  /* color: #f3eed9; */
+}
+
+img.fourth-img {
+  margin: 0;
+  margin-right: 4rem;
+}
+
+.fourth-bg h2 {
+  margin-bottom: 1rem;
+}
+
+.fourth-bg h2 p {
+  color: #f3eed9;
+}
+
+.fourth-color {
+  color: #f3eed9;
 }
