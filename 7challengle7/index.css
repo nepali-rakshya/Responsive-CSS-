@@ -83,7 +83,7 @@ p.third-para {
 }
 
 .second-layout > * {
-  flex: 1;
+  flex: 0 1 50%;
 }
 
 /****************** *Third big container design****************** */
