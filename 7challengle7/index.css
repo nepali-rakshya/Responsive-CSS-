@@ -54,11 +54,12 @@
 
 .second-big-container,
 .third-big-container {
+  /*! **************Re-Usable code******************/
   padding: 4.5rem 0;
 }
 
 .second-big-container > h2 {
-  /* *****************!Re-Useable code****************   */
+  margin-bottom: 2rem;
   text-align: center;
   font-family: "Playfair Display", serif;
   font-size: 36px;
@@ -66,11 +67,14 @@
 }
 
 .second-layout {
-  /* *****************!Re-Useable code****************   */
+  /*! **************Re-Usable code******************/
   display: flex;
-  margin: 2rem 0;
-  color: #222c2a;
   font-size: 21px;
+  justify-content: space-between;
+}
+
+.second-layout p {
+  color: #222c2a;
 }
 
 .second-layout > p + p {
@@ -83,19 +87,13 @@
   background: #222c2a;
 }
 
-.big-container__layout > h2 {
+.third-bg h2 {
   color: #f3eed9;
   font-size: 35px;
 }
 
-.third-big-container > p {
+.third-bg p {
   color: #f3eed9;
-  font-size: 21px;
-  text-align: left;
-}
-
-.third-big-container > p + img {
-  margin-left: 5rem;
 }
 
 img {
