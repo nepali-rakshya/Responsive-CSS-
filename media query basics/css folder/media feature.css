@@ -1,0 +1,60 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.3rem;
+}
+
+.example {
+  width: 90%;
+  height: 50vh;
+  margin: 5em auto;
+  padding: 10em, 0;
+  background: steelblue;
+}
+
+/* *======================================================== */
+
+/* ?THESE ARE THE FORMULA FOR MIN AND MAX WIDTH */
+
+/* min width 600px or bigger*/
+@media (min-width: 600px) {
+}
+
+/* max width 600px or smaller */
+@media (max-width: 600px) {
+}
+
+/* you can combine them */
+/* min width 600px or bigger */
+@media (min-width: 600px) and (max-width: 900px) {
+}
+
+/* *======================================================== */
+
+/* ?AN EXAMPLE TO CHECK ON THE MIN WIDTH */
+
+@media (min-width: 800px) {
+  .example {
+    background: purple;
+  }
+}
+
+@media (min-width: 600px) {
+  .example {
+    background: olivedrab;
+  }
+}
+
+/* ?AN EXAMPLE TO CHECK ON THE MAX WIDTH */
+
+@media (max-width: 600px) {
+  .example {
+    background: pink;
+  }
+}
